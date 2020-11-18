@@ -25,4 +25,4 @@
     
  A full face tracking example by opencv can be found at 
 
-![](example/test.png)
+![image](example/test.png)
