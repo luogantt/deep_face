@@ -17,9 +17,12 @@
 3. add your face picture into /deep_face/data/test_images
 
 
-24  run the code :
+4.  run the code :
     ```
     python multi_face_trace_recongnize.py
     ```
     
     
+ A full face tracking example by opencv can be found at 
+
+![](example/test.png)
