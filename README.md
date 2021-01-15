@@ -7,7 +7,7 @@
     ```
 
 
-2. In python, import the module:
+2. add your face into data/test_image:
     ```
     
     cd ./deep_face/data/test_images
@@ -26,3 +26,12 @@
  A full face tracking example by opencv can be found at 
 
 ![](data/example/test.png)
+
+
+在mtcnn 下加入下面代码
+
+if str(boxes)=='None':
+	selected_boxes.append(None)
+	selected_probs.append([None])
+	selected_points.append(None)
+	continue
